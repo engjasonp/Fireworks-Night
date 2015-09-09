@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAB021851BA02B1800760761 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB021841BA02B1800760761 /* AppDelegate.swift */; };
+		CAB021871BA02B1800760761 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CAB021861BA02B1800760761 /* GameScene.sks */; };
+		CAB021891BA02B1800760761 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB021881BA02B1800760761 /* GameScene.swift */; };
+		CAB0218B1BA02B1800760761 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0218A1BA02B1800760761 /* GameViewController.swift */; };
+		CAB0218E1BA02B1800760761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB0218C1BA02B1800760761 /* Main.storyboard */; };
+		CAB021901BA02B1800760761 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB0218F1BA02B1800760761 /* Images.xcassets */; };
+		CAB021931BA02B1800760761 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAB021911BA02B1800760761 /* LaunchScreen.xib */; };
+		CAB0219F1BA02B1800760761 /* Fireworks_NightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0219E1BA02B1800760761 /* Fireworks_NightTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAB021991BA02B1800760761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB021771BA02B1700760761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB0217E1BA02B1700760761;
+			remoteInfo = "Fireworks Night";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAB0217F1BA02B1800760761 /* Fireworks Night.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fireworks Night.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB021831BA02B1800760761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB021841BA02B1800760761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAB021861BA02B1800760761 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CAB021881BA02B1800760761 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CAB0218A1BA02B1800760761 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CAB0218D1BA02B1800760761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAB0218F1BA02B1800760761 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAB021921BA02B1800760761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CAB021981BA02B1800760761 /* Fireworks NightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fireworks NightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB0219D1BA02B1800760761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB0219E1BA02B1800760761 /* Fireworks_NightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fireworks_NightTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAB0217C1BA02B1700760761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB021951BA02B1800760761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAB021761BA02B1700760761 = {
+			isa = PBXGroup;
+			children = (
+				CAB021811BA02B1800760761 /* Fireworks Night */,
+				CAB0219B1BA02B1800760761 /* Fireworks NightTests */,
+				CAB021801BA02B1800760761 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB021801BA02B1800760761 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB0217F1BA02B1800760761 /* Fireworks Night.app */,
+				CAB021981BA02B1800760761 /* Fireworks NightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB021811BA02B1800760761 /* Fireworks Night */ = {
+			isa = PBXGroup;
+			children = (
+				CAB021841BA02B1800760761 /* AppDelegate.swift */,
+				CAB021861BA02B1800760761 /* GameScene.sks */,
+				CAB021881BA02B1800760761 /* GameScene.swift */,
+				CAB0218A1BA02B1800760761 /* GameViewController.swift */,
+				CAB0218C1BA02B1800760761 /* Main.storyboard */,
+				CAB0218F1BA02B1800760761 /* Images.xcassets */,
+				CAB021911BA02B1800760761 /* LaunchScreen.xib */,
+				CAB021821BA02B1800760761 /* Supporting Files */,
+			);
+			path = "Fireworks Night";
+			sourceTree = "<group>";
+		};
+		CAB021821BA02B1800760761 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAB021831BA02B1800760761 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAB0219B1BA02B1800760761 /* Fireworks NightTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAB0219E1BA02B1800760761 /* Fireworks_NightTests.swift */,
+				CAB0219C1BA02B1800760761 /* Supporting Files */,
+			);
+			path = "Fireworks NightTests";
+			sourceTree = "<group>";
+		};
+		CAB0219C1BA02B1800760761 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAB0219D1BA02B1800760761 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAB0217E1BA02B1700760761 /* Fireworks Night */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB021A21BA02B1800760761 /* Build configuration list for PBXNativeTarget "Fireworks Night" */;
+			buildPhases = (
+				CAB0217B1BA02B1700760761 /* Sources */,
+				CAB0217C1BA02B1700760761 /* Frameworks */,
+				CAB0217D1BA02B1700760761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fireworks Night";
+			productName = "Fireworks Night";
+			productReference = CAB0217F1BA02B1800760761 /* Fireworks Night.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAB021971BA02B1800760761 /* Fireworks NightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB021A51BA02B1800760761 /* Build configuration list for PBXNativeTarget "Fireworks NightTests" */;
+			buildPhases = (
+				CAB021941BA02B1800760761 /* Sources */,
+				CAB021951BA02B1800760761 /* Frameworks */,
+				CAB021961BA02B1800760761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB0219A1BA02B1800760761 /* PBXTargetDependency */,
+			);
+			name = "Fireworks NightTests";
+			productName = "Fireworks NightTests";
+			productReference = CAB021981BA02B1800760761 /* Fireworks NightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB021771BA02B1700760761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = EngJason;
+				TargetAttributes = {
+					CAB0217E1BA02B1700760761 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CAB021971BA02B1800760761 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CAB0217E1BA02B1700760761;
+					};
+				};
+			};
+			buildConfigurationList = CAB0217A1BA02B1700760761 /* Build configuration list for PBXProject "Fireworks Night" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAB021761BA02B1700760761;
+			productRefGroup = CAB021801BA02B1800760761 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB0217E1BA02B1700760761 /* Fireworks Night */,
+				CAB021971BA02B1800760761 /* Fireworks NightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAB0217D1BA02B1700760761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB021931BA02B1800760761 /* LaunchScreen.xib in Resources */,
+				CAB021901BA02B1800760761 /* Images.xcassets in Resources */,
+				CAB021871BA02B1800760761 /* GameScene.sks in Resources */,
+				CAB0218E1BA02B1800760761 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB021961BA02B1800760761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB0217B1BA02B1700760761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB021891BA02B1800760761 /* GameScene.swift in Sources */,
+				CAB0218B1BA02B1800760761 /* GameViewController.swift in Sources */,
+				CAB021851BA02B1800760761 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB021941BA02B1800760761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB0219F1BA02B1800760761 /* Fireworks_NightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAB0219A1BA02B1800760761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAB0217E1BA02B1700760761 /* Fireworks Night */;
+			targetProxy = CAB021991BA02B1800760761 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAB0218C1BA02B1800760761 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB0218D1BA02B1800760761 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAB021911BA02B1800760761 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB021921BA02B1800760761 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAB021A01BA02B1800760761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CAB021A11BA02B1800760761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAB021A31BA02B1800760761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fireworks Night/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAB021A41BA02B1800760761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fireworks Night/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAB021A61BA02B1800760761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fireworks NightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fireworks Night.app/Fireworks Night";
+			};
+			name = Debug;
+		};
+		CAB021A71BA02B1800760761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fireworks NightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fireworks Night.app/Fireworks Night";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAB0217A1BA02B1700760761 /* Build configuration list for PBXProject "Fireworks Night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB021A01BA02B1800760761 /* Debug */,
+				CAB021A11BA02B1800760761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB021A21BA02B1800760761 /* Build configuration list for PBXNativeTarget "Fireworks Night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB021A31BA02B1800760761 /* Debug */,
+				CAB021A41BA02B1800760761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAB021A51BA02B1800760761 /* Build configuration list for PBXNativeTarget "Fireworks NightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB021A61BA02B1800760761 /* Debug */,
+				CAB021A71BA02B1800760761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB021771BA02B1700760761 /* Project object */;
+}
