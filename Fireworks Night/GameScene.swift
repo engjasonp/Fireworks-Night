@@ -115,13 +115,41 @@ class GameScene: SKScene {
     }
     
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
-        for touch in (touches as! Set<UITouch>) {
-            let location = touch.locationInNode(self)
-            
+        super.touchesBegan(touches, withEvent: event)
+        checkForTouches(touches)
+    }
+    
+    override func touchesMoved(touches: Set<NSObject>, withEvent event: UIEvent) {
+        super.touchesMoved(touches, withEvent: event)
+        checkForTouches(touches)
+    }
+    
+    func checkForTouches(touches: NSSet) {
+        let touch = touches.anyObject() as! UITouch
+        
+        let location = touch.locationInNode(self)
+        let nodes = nodesAtPoint(location) as! [SKNode]
+        
+        for node in nodes {
+            if node.isKindOfClass(SKSpriteNode.self) {
+                let sprite = node as! SKSpriteNode
+                
+                if sprite.name == "firework" {
+                    sprite.name = "selected"
+                    sprite.colorBlendFactor = 0
+                }
+            }
         }
     }
-   
-    override func update(currentTime: CFTimeInterval) {
-        /* Called before each frame is rendered */
+    override func update(currentTime: NSTimeInterval) {
+        for var i = fireworks.count - 1; i >= 0; --i {
+            let firework = fireworks[i]
+            
+            if firework.position.y > 900 {
+                // this uses a position high above so that rockets can explode off screen
+                fireworks.removeAtIndex(i)
+                firework.removeFromParent()
+            }
+        }
     }
 }
