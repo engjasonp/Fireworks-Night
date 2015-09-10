@@ -141,6 +141,49 @@ class GameScene: SKScene {
             }
         }
     }
+    
+    func explodeFirework(firework: SKNode) {
+        let particlePath = NSBundle.mainBundle().pathForResource("explode", ofType: "sks")!
+        let emitter = NSKeyedUnarchiver.unarchiveObjectWithFile(particlePath) as! SKEmitterNode
+        emitter.position = firework.position
+        addChild(emitter)
+        
+        firework.removeFromParent()
+    }
+    
+    func explodeFireworks() {
+        var numExploded = 0
+        
+        for var i = fireworks.count - 1; i >= 0; --i {
+            let parent = fireworks[i]
+            let firework = parent.children[0] as! SKSpriteNode
+            
+            if firework.name == "selected" {
+                // destroy this firework!
+                explodeFirework(parent)
+                fireworks.removeAtIndex(i)
+                
+                ++numExploded
+            }
+        }
+        
+        switch numExploded {
+        case 0:
+            // nothing – rubbish!
+            break
+        case 1:
+            score += 200
+        case 2:
+            score += 500
+        case 3:
+            score += 1500
+        case 4:
+            score += 2500
+        default:
+            score += 4000
+        }
+    }
+    
     override func update(currentTime: NSTimeInterval) {
         for var i = fireworks.count - 1; i >= 0; --i {
             let firework = fireworks[i]
